@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A0015E2C10871400BDBFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A0015D2C10871400BDBFBB /* AppDelegate.swift */; };
+		F5A001602C10871400BDBFBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A0015F2C10871400BDBFBB /* SceneDelegate.swift */; };
+		F5A001632C10871400BDBFBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5A001622C10871400BDBFBB /* Base */; };
+		F5A001662C10871400BDBFBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5A001652C10871400BDBFBB /* Base */; };
+		F5A0016F2C10871400BDBFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A0016E2C10871400BDBFBB /* AppDelegate.swift */; };
+		F5A001722C10871400BDBFBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5A001712C10871400BDBFBB /* Base */; };
+		F5A0017A2C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F5A001792C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5A001842C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F5A001832C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5A0018A2C10871400BDBFBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5A0014E2C10871300BDBFBB /* Base */; };
+		F5A0018B2C10871400BDBFBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5A0014E2C10871300BDBFBB /* Base */; };
+		F5A0018C2C10871400BDBFBB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A0014F2C10871300BDBFBB /* Icon.png */; };
+		F5A0018D2C10871400BDBFBB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A0014F2C10871300BDBFBB /* Icon.png */; };
+		F5A0018E2C10871400BDBFBB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F5A001502C10871300BDBFBB /* Style.css */; };
+		F5A0018F2C10871400BDBFBB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F5A001502C10871300BDBFBB /* Style.css */; };
+		F5A001902C10871400BDBFBB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001512C10871300BDBFBB /* Script.js */; };
+		F5A001912C10871400BDBFBB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001512C10871300BDBFBB /* Script.js */; };
+		F5A001922C10871400BDBFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A001522C10871300BDBFBB /* ViewController.swift */; };
+		F5A001932C10871400BDBFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A001522C10871300BDBFBB /* ViewController.swift */; };
+		F5A001942C10871400BDBFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A001532C10871400BDBFBB /* Assets.xcassets */; };
+		F5A001952C10871400BDBFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A001532C10871400BDBFBB /* Assets.xcassets */; };
+		F5A001962C10871400BDBFBB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A001552C10871400BDBFBB /* SafariWebExtensionHandler.swift */; };
+		F5A001972C10871400BDBFBB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A001552C10871400BDBFBB /* SafariWebExtensionHandler.swift */; };
+		F5A001B22C10871400BDBFBB /* index.chromium.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001A92C10871400BDBFBB /* index.chromium.js */; };
+		F5A001B32C10871400BDBFBB /* popup in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AA2C10871400BDBFBB /* popup */; };
+		F5A001B42C10871400BDBFBB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AB2C10871400BDBFBB /* LICENSE */; };
+		F5A001B52C10871400BDBFBB /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AC2C10871400BDBFBB /* _metadata */; };
+		F5A001B62C10871400BDBFBB /* DOMInjectionBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AD2C10871400BDBFBB /* DOMInjectionBridge.js */; };
+		F5A001B72C10871400BDBFBB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AE2C10871400BDBFBB /* icons */; };
+		F5A001B82C10871400BDBFBB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AF2C10871400BDBFBB /* manifest.json */; };
+		F5A001B92C10871400BDBFBB /* rulesets in Resources */ = {isa = PBXBuildFile; fileRef = F5A001B02C10871400BDBFBB /* rulesets */; };
+		F5A001BA2C10871400BDBFBB /* promoteEDP.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001B12C10871400BDBFBB /* promoteEDP.js */; };
+		F5A001BB2C10871400BDBFBB /* index.chromium.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001A92C10871400BDBFBB /* index.chromium.js */; };
+		F5A001BC2C10871400BDBFBB /* popup in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AA2C10871400BDBFBB /* popup */; };
+		F5A001BD2C10871400BDBFBB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AB2C10871400BDBFBB /* LICENSE */; };
+		F5A001BE2C10871400BDBFBB /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AC2C10871400BDBFBB /* _metadata */; };
+		F5A001BF2C10871400BDBFBB /* DOMInjectionBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AD2C10871400BDBFBB /* DOMInjectionBridge.js */; };
+		F5A001C02C10871400BDBFBB /* icons in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AE2C10871400BDBFBB /* icons */; };
+		F5A001C12C10871400BDBFBB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F5A001AF2C10871400BDBFBB /* manifest.json */; };
+		F5A001C22C10871400BDBFBB /* rulesets in Resources */ = {isa = PBXBuildFile; fileRef = F5A001B02C10871400BDBFBB /* rulesets */; };
+		F5A001C32C10871400BDBFBB /* promoteEDP.js in Resources */ = {isa = PBXBuildFile; fileRef = F5A001B12C10871400BDBFBB /* promoteEDP.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A0017B2C10871400BDBFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A001472C10871300BDBFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A001782C10871400BDBFBB;
+			remoteInfo = "Ecole Directe Plus Unblock Extension (iOS)";
+		};
+		F5A001852C10871400BDBFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A001472C10871300BDBFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A001822C10871400BDBFBB;
+			remoteInfo = "Ecole Directe Plus Unblock Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5A0019D2C10871400BDBFBB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5A0017A2C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001A42C10871400BDBFBB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5A001842C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5A0014E2C10871300BDBFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F5A0014F2C10871300BDBFBB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F5A001502C10871300BDBFBB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F5A001512C10871300BDBFBB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F5A001522C10871300BDBFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5A001532C10871400BDBFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A001552C10871400BDBFBB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F5A0015A2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecole Directe Plus Unblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A0015D2C10871400BDBFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A0015F2C10871400BDBFBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5A001622C10871400BDBFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A001652C10871400BDBFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A001672C10871400BDBFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A0016C2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecole Directe Plus Unblock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A0016E2C10871400BDBFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A001712C10871400BDBFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A001732C10871400BDBFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A001742C10871400BDBFBB /* Ecole Directe Plus Unblock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ecole Directe Plus Unblock.entitlements"; sourceTree = "<group>"; };
+		F5A001792C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ecole Directe Plus Unblock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A0017E2C10871400BDBFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A001832C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ecole Directe Plus Unblock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A001882C10871400BDBFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A001892C10871400BDBFBB /* Ecole Directe Plus Unblock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ecole Directe Plus Unblock.entitlements"; sourceTree = "<group>"; };
+		F5A001A92C10871400BDBFBB /* index.chromium.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = index.chromium.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/index.chromium.js"; sourceTree = "<group>"; };
+		F5A001AA2C10871400BDBFBB /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/popup"; sourceTree = "<group>"; };
+		F5A001AB2C10871400BDBFBB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/LICENSE"; sourceTree = "<group>"; };
+		F5A001AC2C10871400BDBFBB /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/_metadata"; sourceTree = "<group>"; };
+		F5A001AD2C10871400BDBFBB /* DOMInjectionBridge.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = DOMInjectionBridge.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/DOMInjectionBridge.js"; sourceTree = "<group>"; };
+		F5A001AE2C10871400BDBFBB /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/icons"; sourceTree = "<group>"; };
+		F5A001AF2C10871400BDBFBB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/manifest.json"; sourceTree = "<group>"; };
+		F5A001B02C10871400BDBFBB /* rulesets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rulesets; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/rulesets"; sourceTree = "<group>"; };
+		F5A001B12C10871400BDBFBB /* promoteEDP.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = promoteEDP.js; path = "../../Library/Application Support/Google/Chrome/Default/Extensions/jglboadggdgnaicfaejjgmnfhfdnflkb/0.1.4_0/promoteEDP.js"; sourceTree = "<group>"; };
+		F5B2905D2C109096009579E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F5B2905E2C109096009579E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F5B2905F2C109096009579E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F5B290602C109096009579E0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = ../fr.lproj/Main.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A001572C10871400BDBFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001692C10871400BDBFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001762C10871400BDBFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001802C10871400BDBFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A001462C10871300BDBFBB = {
+			isa = PBXGroup;
+			children = (
+				F5A0014B2C10871300BDBFBB /* Shared (App) */,
+				F5A001542C10871400BDBFBB /* Shared (Extension) */,
+				F5A0015C2C10871400BDBFBB /* iOS (App) */,
+				F5A0016D2C10871400BDBFBB /* macOS (App) */,
+				F5A0017D2C10871400BDBFBB /* iOS (Extension) */,
+				F5A001872C10871400BDBFBB /* macOS (Extension) */,
+				F5A0015B2C10871400BDBFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A0014B2C10871300BDBFBB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A001522C10871300BDBFBB /* ViewController.swift */,
+				F5A001532C10871400BDBFBB /* Assets.xcassets */,
+				F5A0014C2C10871300BDBFBB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F5A0014C2C10871300BDBFBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0014D2C10871300BDBFBB /* Main.html */,
+				F5A0014F2C10871300BDBFBB /* Icon.png */,
+				F5A001502C10871300BDBFBB /* Style.css */,
+				F5A001512C10871300BDBFBB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5A001542C10871400BDBFBB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A001A82C10871400BDBFBB /* Resources */,
+				F5A001552C10871400BDBFBB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F5A0015B2C10871400BDBFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0015A2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */,
+				F5A0016C2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */,
+				F5A001792C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */,
+				F5A001832C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A0015C2C10871400BDBFBB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0015D2C10871400BDBFBB /* AppDelegate.swift */,
+				F5A0015F2C10871400BDBFBB /* SceneDelegate.swift */,
+				F5A001612C10871400BDBFBB /* LaunchScreen.storyboard */,
+				F5A001642C10871400BDBFBB /* Main.storyboard */,
+				F5A001672C10871400BDBFBB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F5A0016D2C10871400BDBFBB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0016E2C10871400BDBFBB /* AppDelegate.swift */,
+				F5A001702C10871400BDBFBB /* Main.storyboard */,
+				F5A001732C10871400BDBFBB /* Info.plist */,
+				F5A001742C10871400BDBFBB /* Ecole Directe Plus Unblock.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F5A0017D2C10871400BDBFBB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0017E2C10871400BDBFBB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F5A001872C10871400BDBFBB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5A001882C10871400BDBFBB /* Info.plist */,
+				F5A001892C10871400BDBFBB /* Ecole Directe Plus Unblock.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F5A001A82C10871400BDBFBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5A001A92C10871400BDBFBB /* index.chromium.js */,
+				F5A001AA2C10871400BDBFBB /* popup */,
+				F5A001AB2C10871400BDBFBB /* LICENSE */,
+				F5A001AC2C10871400BDBFBB /* _metadata */,
+				F5A001AD2C10871400BDBFBB /* DOMInjectionBridge.js */,
+				F5A001AE2C10871400BDBFBB /* icons */,
+				F5A001AF2C10871400BDBFBB /* manifest.json */,
+				F5A001B02C10871400BDBFBB /* rulesets */,
+				F5A001B12C10871400BDBFBB /* promoteEDP.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A001592C10871400BDBFBB /* Ecole Directe Plus Unblock (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A0019E2C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock (iOS)" */;
+			buildPhases = (
+				F5A001562C10871400BDBFBB /* Sources */,
+				F5A001572C10871400BDBFBB /* Frameworks */,
+				F5A001582C10871400BDBFBB /* Resources */,
+				F5A0019D2C10871400BDBFBB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A0017C2C10871400BDBFBB /* PBXTargetDependency */,
+			);
+			name = "Ecole Directe Plus Unblock (iOS)";
+			productName = "Ecole Directe Plus Unblock (iOS)";
+			productReference = F5A0015A2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A0016B2C10871400BDBFBB /* Ecole Directe Plus Unblock (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A001A52C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock (macOS)" */;
+			buildPhases = (
+				F5A001682C10871400BDBFBB /* Sources */,
+				F5A001692C10871400BDBFBB /* Frameworks */,
+				F5A0016A2C10871400BDBFBB /* Resources */,
+				F5A001A42C10871400BDBFBB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A001862C10871400BDBFBB /* PBXTargetDependency */,
+			);
+			name = "Ecole Directe Plus Unblock (macOS)";
+			productName = "Ecole Directe Plus Unblock (macOS)";
+			productReference = F5A0016C2C10871400BDBFBB /* Ecole Directe Plus Unblock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A001782C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A0019A2C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock Extension (iOS)" */;
+			buildPhases = (
+				F5A001752C10871400BDBFBB /* Sources */,
+				F5A001762C10871400BDBFBB /* Frameworks */,
+				F5A001772C10871400BDBFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ecole Directe Plus Unblock Extension (iOS)";
+			productName = "Ecole Directe Plus Unblock Extension (iOS)";
+			productReference = F5A001792C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F5A001822C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A001A12C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock Extension (macOS)" */;
+			buildPhases = (
+				F5A0017F2C10871400BDBFBB /* Sources */,
+				F5A001802C10871400BDBFBB /* Frameworks */,
+				F5A001812C10871400BDBFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ecole Directe Plus Unblock Extension (macOS)";
+			productName = "Ecole Directe Plus Unblock Extension (macOS)";
+			productReference = F5A001832C10871400BDBFBB /* Ecole Directe Plus Unblock Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A001472C10871300BDBFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F5A001592C10871400BDBFBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F5A0016B2C10871400BDBFBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F5A001782C10871400BDBFBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F5A001822C10871400BDBFBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F5A0014A2C10871300BDBFBB /* Build configuration list for PBXProject "Ecole Directe Plus Unblock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				fr,
+			);
+			mainGroup = F5A001462C10871300BDBFBB;
+			productRefGroup = F5A0015B2C10871400BDBFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A001592C10871400BDBFBB /* Ecole Directe Plus Unblock (iOS) */,
+				F5A0016B2C10871400BDBFBB /* Ecole Directe Plus Unblock (macOS) */,
+				F5A001782C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (iOS) */,
+				F5A001822C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A001582C10871400BDBFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A0018C2C10871400BDBFBB /* Icon.png in Resources */,
+				F5A001632C10871400BDBFBB /* Base in Resources */,
+				F5A0018A2C10871400BDBFBB /* Base in Resources */,
+				F5A001902C10871400BDBFBB /* Script.js in Resources */,
+				F5A001942C10871400BDBFBB /* Assets.xcassets in Resources */,
+				F5A001662C10871400BDBFBB /* Base in Resources */,
+				F5A0018E2C10871400BDBFBB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A0016A2C10871400BDBFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A0018D2C10871400BDBFBB /* Icon.png in Resources */,
+				F5A0018F2C10871400BDBFBB /* Style.css in Resources */,
+				F5A001722C10871400BDBFBB /* Base in Resources */,
+				F5A001912C10871400BDBFBB /* Script.js in Resources */,
+				F5A001952C10871400BDBFBB /* Assets.xcassets in Resources */,
+				F5A0018B2C10871400BDBFBB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001772C10871400BDBFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001BF2C10871400BDBFBB /* DOMInjectionBridge.js in Resources */,
+				F5A001C12C10871400BDBFBB /* manifest.json in Resources */,
+				F5A001BD2C10871400BDBFBB /* LICENSE in Resources */,
+				F5A001BE2C10871400BDBFBB /* _metadata in Resources */,
+				F5A001C32C10871400BDBFBB /* promoteEDP.js in Resources */,
+				F5A001C02C10871400BDBFBB /* icons in Resources */,
+				F5A001BB2C10871400BDBFBB /* index.chromium.js in Resources */,
+				F5A001BC2C10871400BDBFBB /* popup in Resources */,
+				F5A001C22C10871400BDBFBB /* rulesets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001812C10871400BDBFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001B62C10871400BDBFBB /* DOMInjectionBridge.js in Resources */,
+				F5A001B82C10871400BDBFBB /* manifest.json in Resources */,
+				F5A001B42C10871400BDBFBB /* LICENSE in Resources */,
+				F5A001B52C10871400BDBFBB /* _metadata in Resources */,
+				F5A001BA2C10871400BDBFBB /* promoteEDP.js in Resources */,
+				F5A001B72C10871400BDBFBB /* icons in Resources */,
+				F5A001B22C10871400BDBFBB /* index.chromium.js in Resources */,
+				F5A001B32C10871400BDBFBB /* popup in Resources */,
+				F5A001B92C10871400BDBFBB /* rulesets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A001562C10871400BDBFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001922C10871400BDBFBB /* ViewController.swift in Sources */,
+				F5A0015E2C10871400BDBFBB /* AppDelegate.swift in Sources */,
+				F5A001602C10871400BDBFBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001682C10871400BDBFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001932C10871400BDBFBB /* ViewController.swift in Sources */,
+				F5A0016F2C10871400BDBFBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A001752C10871400BDBFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001962C10871400BDBFBB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A0017F2C10871400BDBFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A001972C10871400BDBFBB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A0017C2C10871400BDBFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A001782C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (iOS) */;
+			targetProxy = F5A0017B2C10871400BDBFBB /* PBXContainerItemProxy */;
+		};
+		F5A001862C10871400BDBFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A001822C10871400BDBFBB /* Ecole Directe Plus Unblock Extension (macOS) */;
+			targetProxy = F5A001852C10871400BDBFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A0014D2C10871300BDBFBB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A0014E2C10871300BDBFBB /* Base */,
+				F5B290602C109096009579E0 /* fr */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F5A001612C10871400BDBFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A001622C10871400BDBFBB /* Base */,
+				F5B2905D2C109096009579E0 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A001642C10871400BDBFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A001652C10871400BDBFBB /* Base */,
+				F5B2905E2C109096009579E0 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A001702C10871400BDBFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A001712C10871400BDBFBB /* Base */,
+				F5B2905F2C109096009579E0 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A001982C10871400BDBFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5A001992C10871400BDBFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F5A0019B2C10871400BDBFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock.Extension";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A0019C2C10871400BDBFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock.Extension";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A0019F2C10871400BDBFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A001A02C10871400BDBFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A001A22C10871400BDBFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ecole Directe Plus Unblock.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock.Extension";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5A001A32C10871400BDBFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ecole Directe Plus Unblock.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock.Extension";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F5A001A62C10871400BDBFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ecole Directe Plus Unblock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5A001A72C10871400BDBFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ecole Directe Plus Unblock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ecole Directe Plus Unblock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ecole-directe-plus.ecoledirecteplusunblock";
+				PRODUCT_NAME = "Ecole Directe Plus Unblock";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A0014A2C10871300BDBFBB /* Build configuration list for PBXProject "Ecole Directe Plus Unblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A001982C10871400BDBFBB /* Debug */,
+				F5A001992C10871400BDBFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A0019A2C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A0019B2C10871400BDBFBB /* Debug */,
+				F5A0019C2C10871400BDBFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A0019E2C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A0019F2C10871400BDBFBB /* Debug */,
+				F5A001A02C10871400BDBFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A001A12C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A001A22C10871400BDBFBB /* Debug */,
+				F5A001A32C10871400BDBFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A001A52C10871400BDBFBB /* Build configuration list for PBXNativeTarget "Ecole Directe Plus Unblock (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A001A62C10871400BDBFBB /* Debug */,
+				F5A001A72C10871400BDBFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A001472C10871300BDBFBB /* Project object */;
+}
